@@ -153,13 +153,20 @@
     </header>
     <main  class="container mx-auto md:px-20">
         <!-- featured bike -->
-        <section>
-            
+        <section class="my-24"> 
+          <h3 class="text-5xl font-semibold text-center">Fetured Bikes In This Year</h3>
+          <p class="text-base font-bold text-center mt-5 text-bike-primary underline underline-offset-8">Best bike collection</p>
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:ml-20 space-y-10  mt-10 ml-10 ">
+            <img src="./images/others/feature-bike.png" alt="">
+            <img src="./images/others/feature-bike.png" alt="">
+            <img src="./images/others/feature-bike.png" alt="">
+          </div>
+
         </section>
         <!-- latest new -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center">Latest Bikes</h3>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  mt-16 ">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 m-10  mt-16 ">
                 <!-- first card -->
                 <div class="card  bg-base-100 shadow-xl">
                     <figure><img src="/images/others/latest1.png" alt="Shoes" /></figure>
@@ -198,7 +205,7 @@
         <!-- happy clients section -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center">Happy <span class="text-bike-primary">Clients says</span></h3>
-            <div class="grid gap-10 mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ">
+            <div class="grid gap-10 mt-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 m-10 ">
                 <!-- 1st client review -->
                 <div class="card  bg-base-100 border border-gray-300 p-9">
                     <figure><img class="w-36" src="/images/others/user-1.png" alt="Shoes" /></figure>
@@ -271,7 +278,7 @@
         <!-- FAQ -->
         <section class="my-24">
             <h3 class="text-5xl font-semibold text-center">Frequently Asked<span class="text-bike-primary"> Questions</span></h3>
-            <div class="hero">
+            <div class="hero sm:m-10">
                 <div class="hero-content flex-col lg:gap-24 lg:flex-row">
                   <img src="/images/others/faq.png" class="lg:max-w-sm w-3/4 rounded-lg" />
                   <div>
@@ -323,12 +330,26 @@
 
     </main>
     <footer class="footer p-10 bg-[#0B0D17] text-neutral-content">
-        <div>
-          <p>ACME Industries Ltd.<br/>Providing reliable tech since 1992</p>
+        <div class="lg:ml-40">
+          <div class="grid grid-cols-2 gap-10">
+            <p>Download Now</p>
+            <p>License</p>
+          </div>
+          <div class="grid lg:grid-cols-6  md:grid-cols-5 grid-cols-3  lg:mt-5">
+            <p>About</p>
+            <p>Features</p>
+            <p>Pricing</p>
+            <p>Careers</p>
+            <p>Help</p>
+            <p>Privacy Policy</p>
+          </div>
+          <div class="mt-5">
+            <p>© 2020 bike. All rights reserved</p>
+          </div>
         </div> 
         <div>
-          <span class="footer-title">Social</span> 
-          <div class="grid grid-cols-1 gap-4">
+          <span>Get the App</span> 
+          <div class="grid grid-cols-1 gap-4 mt-3">
             <a><img class="w-36" src="./images/others/android.png" alt=""></a>
             <a><img class="w-36" src="./images/others/ios.png" alt=""></a>
           </div>
